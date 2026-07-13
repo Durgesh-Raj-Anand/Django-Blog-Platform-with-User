@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Local-only verification scripts
+verify_admin.py
